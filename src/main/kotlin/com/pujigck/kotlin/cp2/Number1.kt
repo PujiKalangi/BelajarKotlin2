@@ -2,6 +2,7 @@ package com.pujigck.kotlin.cp2
 
 fun main() {
     while (true) {
+        println("Input Jumlah Matriks:")
         val a = readLine() ?: break
         if (a == "0") break
         val x = a.filterIndexed { index, _ -> index % 2 == 0 }.sumBy { it - '0' }

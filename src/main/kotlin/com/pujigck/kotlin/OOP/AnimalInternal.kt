@@ -1,4 +1,4 @@
-package OOP
+package com.pujigck.kotlin.OOP
 
 internal class AnimalInternal(val name: String) {
 

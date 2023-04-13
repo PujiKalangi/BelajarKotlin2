@@ -1,4 +1,4 @@
-package OOP
+package com.pujigck.kotlin.OOP
 
 class AnimalPublic (val name: String,
                     val weight: Double,
@@ -9,5 +9,5 @@ class AnimalPublic (val name: String,
 
 fun main() {
     val cat = AnimalPublic("kathy", 2.5, 2, true)
-    println(cat.name)
+    println(cat.weight)
 }

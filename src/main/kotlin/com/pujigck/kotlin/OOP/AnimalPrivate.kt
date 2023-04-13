@@ -1,4 +1,4 @@
-package OOP
+package com.pujigck.kotlin.OOP
 
 class Animal (private var name: String,
               private val weight: Double,

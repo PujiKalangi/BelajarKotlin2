@@ -1,4 +1,4 @@
-package OOP
+package com.pujigck.kotlin.OOP
 
 
 open class AnimalInheritance(val name: String, val weight: Double, val age: Int, val isCarnivore: Boolean){
